@@ -70,7 +70,7 @@ const imageMap = {
     "reutilizaçãoeprolongaçãoavidaútildosaparelhos" : "img/materia6/vida.png",
     "reciclarcorretamenteoseletrônicosdescartados" : "img/materia6/eletronico.png",
     "optarporprodutossustentáveisemodulares" : "img/materia6/modulares.png",
-    "reduziroconsumoeodescartedesnecessário" : "img/materia6/descarte.png",
+    "reduziroconsumoedescartedesnecessário" : "img/materia6/descarte.png",
     "migrarparasoluçõesdigitaisebaseadasemnuvem" : "img/materia6/nuvem.png",
 
     "virtualizaçãodeservidoresfisicos" : "img/materia7/server.png",
@@ -133,3 +133,4 @@ window.addEventListener("scroll", () => {
         header.classList.remove("scrolled");
     }
 });
+
