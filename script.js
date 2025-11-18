@@ -65,7 +65,7 @@ const imageMap = {
     "iapararesfriamentoeficientededatacenters" : "img/materia5/resfriamento.png",
     "nuvemalimentadaporenergiarenovável(ppasemetas100%)" : "img/materia5/renovavel.png",
     "crescimentodoconsumodeenergiadosdatacenterscomia" : "img/materia5/data.png",
-    "migrarparasoluçõesdigitaisebaseadasemnuvem" : "img/materia5/ferramenta.png",
+    "migrarparasoluçõesdigitaisebaseadasnanuvem" : "img/materia5/ferramenta.png",
 
     "reutilizaçãoeprolongaçãoavidaútildosaparelhos" : "img/materia6/vida.png",
     "reciclarcorretamenteoseletrônicosdescartados" : "img/materia6/eletronico.png",
@@ -133,6 +133,7 @@ window.addEventListener("scroll", () => {
         header.classList.remove("scrolled");
     }
 });
+
 
 
 
