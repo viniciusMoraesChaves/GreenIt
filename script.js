@@ -41,7 +41,7 @@ function createModal(content) {
 }
 
 const imageMap = {
-    "manutençãopreventiva": "img/materia1/manutencaoPreventiva.png",
+    "manutençãopreventiva": "img/materia1/manutencaopreventiva.png",
     "useréguadeenergia": "img/materia1/usereguadeenergia.png",
     "useeletrodomésticoseficientes": "img/materia1/useeletrodomésticoseficientes.png",
     "useenergiasolar": "img/materia1/useenergiasolar.png",
@@ -133,4 +133,5 @@ window.addEventListener("scroll", () => {
         header.classList.remove("scrolled");
     }
 });
+
 
