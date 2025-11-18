@@ -60,7 +60,7 @@ const imageMap = {
     "reciclarcorretamenteoseletrônicosdescartados" : "img/materia4/lixo.png",
     "optarporprodutossustentáveisemodulares" : "img/materia4/produtos.png",
     "reduziroconsumoeodescartedesnecessário" : "img/materia4/consumo.png",
-    "migrarparasoluçõesdigitaisebaseadasemnuvem" : "img/materia4/digitais.png",
+    "utilizarsoluçõesdigitaisebaseadasemnuvem" : "img/materia4/digitais.png",
     "migraçãoparanuvemxdatacenterpróprio" : "img/materia5/nuvem.png",
     "iapararesfriamentoeficientededatacenters" : "img/materia5/resfriamento.png",
     "nuvemalimentadaporenergiarenovável(ppasemetas100%)" : "img/materia5/renovavel.png",
@@ -133,5 +133,6 @@ window.addEventListener("scroll", () => {
         header.classList.remove("scrolled");
     }
 });
+
 
 
