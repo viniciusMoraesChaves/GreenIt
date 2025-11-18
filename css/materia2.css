@@ -1,0 +1,99 @@
+:root{
+    --darkGreen: #2E7D32;
+    --lightGreen: #4CAF50;
+    --lightGrey: #F1F8E9;
+    --white: #E0E0E0;
+    --pure-white: #fff;
+    --black: #212121;
+    --Grey: #333333;
+    --Grey-hover: #414141;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+body {
+    background-color: var(--white);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100vw;
+    height: 25vh;
+}
+header img{
+    width: 100vw;
+    top: 0;
+}
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.info{
+    width: 15vw;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s ease;
+}
+
+.topInfo{
+    width: 140px;
+    background: var(--lightGrey);
+    height: 140px;
+    position: relative;
+    bottom: -20px;
+    border: 5px solid var(--Grey);
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.midInfo{
+    width: 180px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 40px solid var(--black);
+    background: transparent;
+}
+.bottomInfo{
+    width: 180px;
+    height: 320px;
+    background: var(--black);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.bottomInfo label{
+    margin-top: 15px;
+    color: var(--lightGrey);
+    font-weight: 600;
+}
+
+.info:hover .infoWrapper {
+   filter:
+    drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.4))
+    drop-shadow(0px 14px 5px rgba(0, 0, 0, 0.3));
+
+}
